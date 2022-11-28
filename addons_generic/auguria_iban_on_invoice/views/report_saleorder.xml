@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="report_sale_order_document_custom_iban_on_invoice" inherit_id="sale.report_saleorder_document">
+            <xpath expr="//p[@t-if='not is_html_empty(doc.payment_term_id.note)']" position="after">
+                <t t-if="doc.partner_id.payment_partner_bank_id.bank_account_id" name="payment_note">
+                    <b>
+                        <u>Coordonnées bancaires :</u>
+                    </b>
+                    <p>IBAN :
+                        <span t-field="doc.partner_id.payment_partner_bank_id.bank_account_id.acc_number"/>
+                        <br></br>
+                   Code BIC :
+                        <span t-field="doc.partner_id.payment_partner_bank_id.bank_account_id.bank_id.bic"/>
+                    </p>
+                    <p>
+                        <span t-field="doc.partner_id.payment_partner_bank_id.bank_account_id.bank_text"/>
+                    </p>
+                </t>
+                <t t-else="" name="payment_note">
+
+                    <b>
+                        <u>Coordonnées bancaires :</u>
+                    </b>
+                    <p>IBAN :
+                        <span t-field="doc.company_id.default_bank_id.acc_number"/>
+                       <br></br>
+                   Code BIC :
+                        <span t-field="doc.company_id.default_bank_id.bank_id.bic"/>
+                    </p>
+                    <p>
+                        <span t-field="doc.company_id.default_bank_id.bank_text"/>
+                    </p>
+                </t>
+
+            </xpath>
+        </template>
+
+    </data>
+</odoo>
