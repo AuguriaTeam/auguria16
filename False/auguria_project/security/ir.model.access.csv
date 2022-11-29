@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_project_task_category1,project.task.category1,model_project_task_category1,base.group_user,1,1,1,1
+access_project_task_category2,project.task.category2,model_project_task_category2,base.group_user,1,1,1,1
+access_project_task_category3,project.task.category3,model_project_task_category3,base.group_user,1,1,1,1
+access_account_analytic_line_type,account.analytic.line.type,model_account_analytic_line_type,base.group_user,1,1,1,1
+
