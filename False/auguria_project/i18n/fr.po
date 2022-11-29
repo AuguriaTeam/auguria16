@@ -1,0 +1,229 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* auguria_project
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-28 14:08+0000\n"
+"PO-Revision-Date: 2022-04-28 14:08+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: auguria_project
+#: model:ir.model.fields.selection,name:auguria_project.selection__project_task__budget__additional
+msgid "Additional"
+msgstr ""
+
+#. module: auguria_project
+#: model:ir.model,name:auguria_project.model_account_analytic_line
+msgid "Analytic Line"
+msgstr "Ligne analytique"
+
+#. module: auguria_project
+#: model:ir.model.fields,field_description:auguria_project.field_project_task__budget
+msgid "Budget"
+msgstr "Budget"
+
+#. module: auguria_project
+#: model:ir.actions.act_window,name:auguria_project.action_view_project_task_category1
+#: model:ir.ui.menu,name:auguria_project.task_category_1
+msgid "Category 1"
+msgstr "Categorie 1"
+
+#. module: auguria_project
+#: model:ir.model.fields,field_description:auguria_project.field_account_analytic_line__first_category
+#: model:ir.model.fields,field_description:auguria_project.field_project_task__first_category
+msgid "Category 1 "
+msgstr "Categorie 1"
+
+#. module: auguria_project
+#: model:ir.actions.act_window,name:auguria_project.action_view_project_task_category2
+#: model:ir.model.fields,field_description:auguria_project.field_project_task_category1__category_2
+#: model:ir.ui.menu,name:auguria_project.task_category_2
+msgid "Category 2"
+msgstr "Categorie 2"
+
+#. module: auguria_project
+#: model:ir.model.fields,field_description:auguria_project.field_account_analytic_line__second_category
+#: model:ir.model.fields,field_description:auguria_project.field_project_task__second_category
+msgid "Category 2 "
+msgstr "Categorie 2"
+
+#. module: auguria_project
+#: model:ir.actions.act_window,name:auguria_project.action_view_project_task_category3
+#: model:ir.ui.menu,name:auguria_project.task_category_3
+msgid "Category 3"
+msgstr "Categorie 3"
+
+#. module: auguria_project
+#: model:ir.model.fields,field_description:auguria_project.field_project_task_category2__category_2
+#: model:ir.model.fields,field_description:auguria_project.field_project_task_category3__category_3
+msgid "Category parent"
+msgstr "Categorie parent"
+
+#. module: auguria_project
+#: model_terms:ir.ui.view,arch_db:auguria_project.view_project_task_category2_form
+msgid "Category2"
+msgstr "Categorie2"
+
+#. module: auguria_project
+#: model_terms:ir.actions.act_window,help:auguria_project.action_view_account_analytic_line_type
+#: model_terms:ir.actions.act_window,help:auguria_project.action_view_project_task_category1
+#: model_terms:ir.actions.act_window,help:auguria_project.action_view_project_task_category2
+#: model_terms:ir.actions.act_window,help:auguria_project.action_view_project_task_category3
+msgid "Cliquez ici pour créer une nouvelle ligne"
+msgstr ""
+
+#. module: auguria_project
+#: model:ir.model.fields,field_description:auguria_project.field_project_task__kanban_color
+#: model:ir.model.fields,field_description:auguria_project.field_project_task_category2__kanban_color
+msgid "Couleur kanban"
+msgstr ""
+
+#. module: auguria_project
+#: model:ir.model.fields,field_description:auguria_project.field_account_analytic_line_type__create_uid
+#: model:ir.model.fields,field_description:auguria_project.field_project_task_category1__create_uid
+#: model:ir.model.fields,field_description:auguria_project.field_project_task_category2__create_uid
+#: model:ir.model.fields,field_description:auguria_project.field_project_task_category3__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: auguria_project
+#: model:ir.model.fields,field_description:auguria_project.field_account_analytic_line_type__create_date
+#: model:ir.model.fields,field_description:auguria_project.field_project_task_category1__create_date
+#: model:ir.model.fields,field_description:auguria_project.field_project_task_category2__create_date
+#: model:ir.model.fields,field_description:auguria_project.field_project_task_category3__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: auguria_project
+#: model:ir.model.fields,field_description:auguria_project.field_account_analytic_line_type__description
+#: model:ir.model.fields,field_description:auguria_project.field_project_task_category1__description
+#: model:ir.model.fields,field_description:auguria_project.field_project_task_category2__description
+#: model:ir.model.fields,field_description:auguria_project.field_project_task_category3__description
+msgid "Description"
+msgstr "Description"
+
+#. module: auguria_project
+#: model:ir.model.fields,field_description:auguria_project.field_account_analytic_line_type__display_name
+#: model:ir.model.fields,field_description:auguria_project.field_project_task_category1__display_name
+#: model:ir.model.fields,field_description:auguria_project.field_project_task_category2__display_name
+#: model:ir.model.fields,field_description:auguria_project.field_project_task_category3__display_name
+msgid "Display Name"
+msgstr "Nom afficher"
+
+#. module: auguria_project
+#: model:ir.model.fields,field_description:auguria_project.field_account_analytic_line_type__id
+#: model:ir.model.fields,field_description:auguria_project.field_project_task_category1__id
+#: model:ir.model.fields,field_description:auguria_project.field_project_task_category2__id
+#: model:ir.model.fields,field_description:auguria_project.field_project_task_category3__id
+msgid "ID"
+msgstr ""
+
+#. module: auguria_project
+#: model:ir.model.fields,field_description:auguria_project.field_account_analytic_line_type____last_update
+#: model:ir.model.fields,field_description:auguria_project.field_project_task_category1____last_update
+#: model:ir.model.fields,field_description:auguria_project.field_project_task_category2____last_update
+#: model:ir.model.fields,field_description:auguria_project.field_project_task_category3____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: auguria_project
+#: model:ir.model.fields,field_description:auguria_project.field_account_analytic_line_type__write_uid
+#: model:ir.model.fields,field_description:auguria_project.field_project_task_category1__write_uid
+#: model:ir.model.fields,field_description:auguria_project.field_project_task_category2__write_uid
+#: model:ir.model.fields,field_description:auguria_project.field_project_task_category3__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: auguria_project
+#: model:ir.model.fields,field_description:auguria_project.field_account_analytic_line_type__write_date
+#: model:ir.model.fields,field_description:auguria_project.field_project_task_category1__write_date
+#: model:ir.model.fields,field_description:auguria_project.field_project_task_category2__write_date
+#: model:ir.model.fields,field_description:auguria_project.field_project_task_category3__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: auguria_project
+#: model:ir.model.fields,field_description:auguria_project.field_account_analytic_line_type__name
+#: model:ir.model.fields,field_description:auguria_project.field_project_task_category1__name
+#: model:ir.model.fields,field_description:auguria_project.field_project_task_category2__name
+#: model:ir.model.fields,field_description:auguria_project.field_project_task_category3__name
+msgid "Name"
+msgstr "Nom"
+
+#. module: auguria_project
+#: model:ir.model.fields,help:auguria_project.field_project_task_category1__name
+#: model:ir.model.fields,help:auguria_project.field_project_task_category2__name
+#: model:ir.model.fields,help:auguria_project.field_project_task_category3__name
+msgid "Name of the category"
+msgstr "Nom de la categorie"
+
+#. module: auguria_project
+#: model:ir.model.fields,help:auguria_project.field_account_analytic_line_type__name
+msgid "Name of the work type"
+msgstr ""
+
+#. module: auguria_project
+#: model:ir.model.fields.selection,name:auguria_project.selection__project_task__budget__planned
+msgid "Planned in the budget"
+msgstr "Prévu dans le budget"
+
+#. module: auguria_project
+#: model:ir.model,name:auguria_project.model_project_task
+msgid "Task"
+msgstr "Tâche"
+
+#. module: auguria_project
+#: model:ir.actions.act_window,name:auguria_project.action_view_account_analytic_line_type
+msgid "Work Type"
+msgstr "Type de travail"
+
+#. module: auguria_project
+#: model:ir.model.fields,field_description:auguria_project.field_account_analytic_line__work_type
+#: model:ir.ui.menu,name:auguria_project.account_analytic_line_type
+msgid "Work type"
+msgstr "Type de travail"
+
+#. module: auguria_project
+#: model:ir.model,name:auguria_project.model_account_analytic_line_type
+msgid "account.analytic.line.type"
+msgstr ""
+
+#. module: auguria_project
+#: model:ir.model.fields,field_description:auguria_project.field_project_task_category2__category_3
+msgid "category 3"
+msgstr "Categorie 3"
+d
+#. module: auguria_project
+#: model:ir.model.fields,help:auguria_project.field_project_task_category1__description
+#: model:ir.model.fields,help:auguria_project.field_project_task_category2__description
+#: model:ir.model.fields,help:auguria_project.field_project_task_category3__description
+msgid "definition of the category"
+msgstr "Definition de la categorie"
+
+#. module: auguria_project
+#: model:ir.model.fields,help:auguria_project.field_account_analytic_line_type__description
+msgid "definition of the work type"
+msgstr "definition de type de travail"
+
+#. module: auguria_project
+#: model:ir.model,name:auguria_project.model_project_task_category1
+msgid "project.task.category1"
+msgstr ""
+
+#. module: auguria_project
+#: model:ir.model,name:auguria_project.model_project_task_category2
+msgid "project.task.category2"
+msgstr ""
+
+#. module: auguria_project
+#: model:ir.model,name:auguria_project.model_project_task_category3
+msgid "project.task.category3"
+msgstr ""
